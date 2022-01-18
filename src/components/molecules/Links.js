@@ -21,5 +21,5 @@ const LinksWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 23px;
-  margin: 32px 0;
+  margin: 32px 0 0 0;
 `;

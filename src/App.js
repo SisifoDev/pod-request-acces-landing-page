@@ -4,6 +4,7 @@ import styled from "styled-components";
 import Title from "./components/atoms/Title";
 import Paragraph from "./components/atoms/Paragraph";
 import Links from "./components/molecules/Links";
+import Search from "./components/molecules/Search";
 
 function App() {
   return (
@@ -12,15 +13,18 @@ function App() {
         <Logo />
       </Header>
       <Main>
-        <Title>
-          Publish your podcasts <strong>everywhere.</strong>
-        </Title>
-        <Paragraph>
-          Upload your audio to Pod with a single click. We’ll then distribute
-          your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket Casts
-          and more!
-        </Paragraph>
+        <MainContent>
+          <Title>
+            Publish your podcasts <strong>everywhere.</strong>
+          </Title>
+          <Paragraph>
+            Upload your audio to Pod with a single click. We’ll then distribute
+            your podcast to Spotify, Apple Podcasts, Google Podcasts, Pocket
+            Casts and more!
+          </Paragraph>
+        </MainContent>
         <Links />
+        <Search />
       </Main>
     </>
   );
@@ -40,6 +44,14 @@ const Main = styled.main`
   align-items: center;
   justify-content: center;
   margin-top: 57px;
-  gap: 16px;
+
   padding: 0 24px;
+`;
+
+const MainContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 `;
