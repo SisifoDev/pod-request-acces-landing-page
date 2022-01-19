@@ -83,6 +83,10 @@ const Header = styled.header`
     justify-content: flex-start;
     padding-left: 39px;
   }
+
+  @media (min-width: 1440px) {
+    padding-left: 165px;
+  }
 `;
 
 const Main = styled.main`
