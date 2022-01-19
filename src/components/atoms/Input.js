@@ -18,6 +18,8 @@ const InputWrapper = styled.form`
   @media (min-width: 768px) {
     height: 56px;
     width: 427px;
+    margin: 0;
+    padding: 0;
   }
 `;
 
@@ -40,5 +42,6 @@ const InputStyled = styled.input`
   outline-offset: unset;
 
   @media (min-width: 768px) {
+    align-self: flex-start;
   }
 `;

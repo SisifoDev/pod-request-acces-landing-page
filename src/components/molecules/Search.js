@@ -23,5 +23,9 @@ const SearchWrapper = styled.div`
 
   @media (min-width: 768px) {
     flex-direction: row;
+    justify-content: flex-end;
+    align-self: flex-start;
+    margin-top: 40px;
+    padding: 0;
   }
 `;

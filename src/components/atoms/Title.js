@@ -9,7 +9,7 @@ export default Title;
 
 const Heading1 = styled.h1`
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 26px;
   line-height: 38px;
   /* or 146% */
@@ -21,7 +21,7 @@ const Heading1 = styled.h1`
   & strong {
     color: var(--white);
     font-style: normal;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 26px;
     line-height: 38px;
     @media (min-width: 768px) {

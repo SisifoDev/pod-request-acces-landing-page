@@ -17,12 +17,12 @@ const ParagraphStyled = styled.p`
   color: var(--lightGray);
 
   @media (min-width: 768px) {
-    font-weight: normal;
+    font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     text-align: left;
     display: inline-block;
-    width: 80%;
+    width: 70%;
     margin-top: 32px;
   }
 `;
