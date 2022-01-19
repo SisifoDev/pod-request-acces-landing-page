@@ -58,11 +58,18 @@ const BgWrapper = styled.div`
       z-index: -1;
       position: relative;
 
-      background-image: url("./assets/mobile/image-host.jpg"),
+      background-image: url("./assets/desktop/image-host.jpg"),
         url("./assets/CombinedShape.svg");
       background-position: top 0 left 40vw, bottom 0 left 39px;
 
       background-size: 60%, 25%;
+    }
+    @media (min-width: 1440px) {
+      background-image: url("./assets/CombinedShape.svg"),
+        url("./assets/desktop/image-host.jpg");
+      background-position: bottom 78px right 0, top 130px left 40vw;
+
+      background-size: 17%, 60%;
     }
   }
 `;
@@ -94,6 +101,12 @@ const Main = styled.main`
     height: 609px;
     margin: 180px 0 0 10px;
     padding: 31px 0;
+  }
+
+  @media (min-width: 1440px) {
+    width: 738px;
+    height: 509px;
+    margin: 150px 0 0 169px;
   }
 `;
 
