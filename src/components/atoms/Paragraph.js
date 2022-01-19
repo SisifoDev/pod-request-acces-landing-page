@@ -19,9 +19,10 @@ const ParagraphStyled = styled.p`
   @media (min-width: 768px) {
     font-weight: normal;
     font-size: 18px;
-    line-height: 28px;
+    line-height: 30px;
     text-align: left;
     display: inline-block;
     width: 80%;
+    margin-top: 32px;
   }
 `;

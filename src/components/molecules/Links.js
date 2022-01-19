@@ -23,8 +23,11 @@ const LinksWrapper = styled.div`
   gap: 23px;
   margin: 32px 0 0 0;
   @media (min-width: 768px) {
-    width: 536px;
+    order: 4;
+    width: 596px;
     height: 29px;
     gap: 40px;
+    margin-top: 64px;
+    justify-content: flex-start;
   }
 `;

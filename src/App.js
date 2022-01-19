@@ -59,7 +59,7 @@ const BgWrapper = styled.div`
       position: relative;
       left: 20%;
 
-      background-size: 65%;
+      background-size: 60%;
     }
   }
 `;
@@ -89,7 +89,7 @@ const Main = styled.main`
     justify-content: flex-start;
     width: 680px;
     height: 609px;
-    margin: 177px 0 0 0;
+    margin: 180px 0 0 10px;
     padding: 31px 0;
   }
 `;

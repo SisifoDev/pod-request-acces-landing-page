@@ -20,4 +20,8 @@ const SearchWrapper = styled.div`
   justify-content: center;
 
   gap: 16px;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 `;

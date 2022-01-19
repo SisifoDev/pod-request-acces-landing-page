@@ -24,4 +24,12 @@ const ButtonStyled = styled.button`
     cursor: pointer;
     opacity: 0.7;
   }
+
+  @media (min-width: 768px) {
+    width: 162px;
+    height: 46px;
+    position: relative;
+    top: 5px;
+    right: 183px;
+  }
 `;

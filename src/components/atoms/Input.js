@@ -10,11 +10,15 @@ export default function Input() {
 }
 
 const InputWrapper = styled.form`
-  width: 100%px;
+  width: 100%;
   height: 46px;
   background: var(--darkGray);
   border-radius: 28px;
   opacity: 0.5;
+  @media (min-width: 768px) {
+    height: 56px;
+    width: 427px;
+  }
 `;
 
 const InputStyled = styled.input`
@@ -34,4 +38,7 @@ const InputStyled = styled.input`
   mix-blend-mode: normal;
 
   outline-offset: unset;
+
+  @media (min-width: 768px) {
+  }
 `;
