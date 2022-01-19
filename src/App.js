@@ -57,9 +57,12 @@ const BgWrapper = styled.div`
       opacity: 1;
       z-index: -1;
       position: relative;
-      left: 20%;
 
-      background-size: 60%;
+      background-image: url("./assets/mobile/image-host.jpg"),
+        url("./assets/CombinedShape.svg");
+      background-position: top 0 left 40vw, bottom 0 left 39px;
+
+      background-size: 60%, 25%;
     }
   }
 `;
