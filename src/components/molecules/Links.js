@@ -1,17 +1,14 @@
 import React from "react";
-import ApplePodcast from "../atoms/ApplePodcast";
+
 import styled from "styled-components";
-import SpotifyPodcast from "../atoms/SpotifyPodcast";
-import GooglePodcast from "../atoms/GooglePodcast";
-import Pocketcast from "../atoms/Pocketcast";
 
 export default function Links() {
   return (
     <LinksWrapper>
-      <SpotifyPodcast />
-      <ApplePodcast />
-      <GooglePodcast />
-      <Pocketcast />
+      <img src="assets/Spotify_logo.svg" alt="" />
+      <img src="assets/ApplePodcast.svg" alt="" />
+      <img src="assets/GoodlePodcasts.svg" alt="" />
+      <img src="assets/PocketCasts.svg" alt="" />
     </LinksWrapper>
   );
 }
@@ -21,13 +18,23 @@ const LinksWrapper = styled.div`
   justify-content: center;
   align-items: center;
   gap: 23px;
-  margin: 32px 0 0 0;
+  margin-top: 32px;
+  & img {
+    height: 17px;
+    width: auto;
+  }
   @media (min-width: 768px) {
     order: 4;
-    width: 596px;
+    width: auto;
     height: 29px;
     gap: 40px;
     margin-top: 64px;
     justify-content: flex-start;
+
+    align-self: start;
+    & img {
+      height: 29px;
+      width: auto;
+    }
   }
 `;

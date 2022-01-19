@@ -98,14 +98,14 @@ const Main = styled.main`
     background-color: var(--black);
     justify-content: flex-start;
     width: 635px;
-    height: 509px;
+    height: 535px;
     margin: 135px 0 0 39px;
     padding: 0;
   }
 
   @media (min-width: 1440px) {
     width: 738px;
-    height: 509px;
+    height: 535px;
     margin: 150px 0 0 169px;
   }
 `;
@@ -121,5 +121,6 @@ const MainContent = styled.div`
     padding: 0;
     justify-content: flex-start;
     align-items: flex-start;
+    align-self: start;
   }
 `;
