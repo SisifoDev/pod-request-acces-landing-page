@@ -21,8 +21,20 @@ const Heading1 = styled.h1`
   & strong {
     color: var(--white);
     font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 26px;
     line-height: 38px;
+    @media (min-width: 768px) {
+      text-align: left;
+      font-size: 48px;
+      line-height: 56px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 93px;
+    text-align: left;
+    font-size: 48px;
+    line-height: 56px;
   }
 `;

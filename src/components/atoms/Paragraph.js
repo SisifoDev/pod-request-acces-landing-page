@@ -15,4 +15,13 @@ const ParagraphStyled = styled.p`
   text-align: center;
 
   color: var(--lightGray);
+
+  @media (min-width: 768px) {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    display: inline-block;
+    width: 80%;
+  }
 `;
