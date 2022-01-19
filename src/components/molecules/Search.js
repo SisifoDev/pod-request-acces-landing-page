@@ -25,7 +25,7 @@ const SearchWrapper = styled.div`
     flex-direction: row;
     justify-content: flex-end;
     align-self: flex-start;
-    margin-top: 40px;
+    margin-top: 35px;
     padding: 0;
   }
 `;

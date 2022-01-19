@@ -10,7 +10,7 @@ const ButtonStyled = styled.button`
   color: var(--black);
   font-family: Chivo;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 28px;
   box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);

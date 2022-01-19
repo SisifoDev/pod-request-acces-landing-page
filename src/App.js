@@ -67,9 +67,9 @@ const BgWrapper = styled.div`
     @media (min-width: 1440px) {
       background-image: url("./assets/CombinedShape.svg"),
         url("./assets/desktop/image-host.jpg");
-      background-position: top 700px right 0, top 130px left 40vw;
+      background-position: top 700px right 0, top 130px left 37vw;
 
-      background-size: 17%, 60%;
+      background-size: 17%, 62%;
     }
   }
 `;
@@ -85,7 +85,7 @@ const Header = styled.header`
   }
 
   @media (min-width: 1440px) {
-    padding-left: 165px;
+    padding: 102px 0 0 165px;
   }
 `;
 
@@ -108,9 +108,9 @@ const Main = styled.main`
   }
 
   @media (min-width: 1440px) {
-    width: 738px;
+    width: 53%;
     height: 535px;
-    margin: 150px 0 0 169px;
+    margin: 92px 0 0 169px;
   }
 `;
 

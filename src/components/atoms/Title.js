@@ -37,4 +37,10 @@ const Heading1 = styled.h1`
     font-size: 48px;
     line-height: 56px;
   }
+
+  @media (min-width: 1440px) {
+    margin-top: 88px;
+    font-size: 52px;
+    line-height: 62px;
+  }
 `;

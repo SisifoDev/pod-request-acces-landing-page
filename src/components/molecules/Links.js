@@ -37,4 +37,8 @@ const LinksWrapper = styled.div`
       width: auto;
     }
   }
+
+  @media (min-width: 1440px) {
+    margin-top: 60px;
+  }
 `;

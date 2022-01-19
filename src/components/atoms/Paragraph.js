@@ -25,4 +25,8 @@ const ParagraphStyled = styled.p`
     width: 70%;
     margin-top: 32px;
   }
+  @media (min-width: 1440px) {
+    margin-top: 20px;
+    width: 55%;
+  }
 `;
